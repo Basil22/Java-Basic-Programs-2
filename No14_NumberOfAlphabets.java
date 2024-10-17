@@ -6,9 +6,10 @@ import java.util.List;
 public class No14_NumberOfAlphabets {
 
 	public static void main(String[] args) {
-		String input = "Capgemini";
+		String input = "Count";
 		int[] countArray = new int[26];
 		
+		//count character occurrences
 		for (char ch : input.toCharArray()) {
 			ch = Character.toLowerCase(ch);
             countArray[ch - 'a']++;

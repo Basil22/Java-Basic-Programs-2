@@ -4,7 +4,6 @@ public class No13_DefaultMethodFunctionalInterface {
 
 	public static void main(String[] args) {
 		
-//		int[] arr = {1,2,3,4,5};
 		Override o = new Override();
 		o.overrideThis();
 		o.callThis();

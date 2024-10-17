@@ -1,29 +1,17 @@
 package TenToTwenty;
 
-import java.util.Scanner;
-
 public class No11_FibonacciSeries {
 
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in);
-		System.out.print("Enter the number of digits: ");
-		int n = scan.nextInt();
-		
-		int first = 0;
-		int second = 1;
-		System.out.print(first + " ");
-		System.out.print(second + " ");
-		
-		int sum=0;
-		for(int i=2; i<n; i++) {
-			sum = first + second;
-			first = second;
-			second=sum;
-			System.out.print(second + " ");
+		int a = 0, b = 1, n = 6; //n -> number of digits 
+
+		for (int i = 1; i <= n; i++) {
+			System.out.print(a + " ");
+			int sum = a + b;
+			a = b;
+			b = sum;
 		}
-		
-		scan.close();
 	}
 
 }
