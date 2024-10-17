@@ -10,20 +10,20 @@ If any programs have a better solution, feel free to raise a PR
 
 13) Write a program to implement the defalut method in a Fuctional interface and override it.
 
-14)write a program to Count the number of alphabets in a given sentence
+14) Write a program to Count the number of alphabets in a given sentence
     i/p="Capgemini"
     o/p = {C-1,a-1,p-1,g-1,e-1,m-1,i-2,n-1}
     
-15)Write a program to store the List of prime numbers in a arrayList and print it.
+15) Write a program to store the List of prime numbers in a arrayList and print it.
 
-16)Write a program to create POJO class of Product (Product Id, ProductName) and Store all values in any collection and Sort that values by ProductName in ascending order.
+16) Write a program to create POJO class of Product (Product Id, ProductName) and Store all values in any collection and Sort that values by ProductName in ascending order.
 
-17)write a program To count number of words in a given sentence.
+17) Write a program To count number of words in a given sentence.
  i/p "Hello world"
  o/p = 2 words  
  
-18)Write a program to Reverse a string="Capgemini Training"
+18) Write a program to Reverse a string="Capgemini Training"
 
-19)Write a program count Each vowel frequency in a String(String="capgemini training")
+19) Write a program count Each vowel frequency in a String(String="capgemini training")
 
-20)Create a class having Fields id,name ,salary and sort it based on id and name using comparator and comparable 
+20) Create a class having Fields id,name ,salary and sort it based on id and name using comparator and comparable 
